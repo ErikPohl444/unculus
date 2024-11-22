@@ -10,6 +10,7 @@ def foo():
     # return ['"','a'] to truncate the quote at the 'a'
     return ['"']
 
+
 # create the pattern-matching start node
 bartlett = unculus_node('start')
 # any token which is not matched returns to the start node

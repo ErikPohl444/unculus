@@ -10,6 +10,7 @@ def bar(z):
     print('doing something with entrance token ' + str(z))
     print(str(z+zappo))
 
+
 zappo = 2
 one = unculus_node('one', 1, foo, bar)
 two = unculus_node('two', 2, foo, bar)
