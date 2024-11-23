@@ -2,12 +2,12 @@ from unculus_node import unculus_node
 
 
 def foo(z):
-    print('doing something with value ' + str(z))
+    print(f'doing something with value {str(z)}')
     print(str(z+zappo))
 
 
 def bar(z):
-    print('doing something with entrance token ' + str(z))
+    print('doing something with entrance token {str(z)}')
     print(str(z+zappo))
 
 

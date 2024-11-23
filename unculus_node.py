@@ -84,7 +84,7 @@ class unculus_node:
         return self._execute_and_return(self._default_turnstile, token)
 
     def consume_and_print_and_raise_exceptions(self, tokens):
-        print('start', self.name)
+        print('start {self.name}')
         current_state = self
         for token in tokens:
             current_state = current_state.evaluate_token(token)
@@ -93,7 +93,7 @@ class unculus_node:
             print(token, current_state.name)
 
     def consume_and_print(self, tokens):
-        print('start', self.name)
+        print(f'start {self.name}')
         current_state = self
         for token in tokens:
             current_state = current_state.evaluate_token(token)
