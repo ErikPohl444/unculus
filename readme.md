@@ -41,18 +41,38 @@ Here are some elements I expect to be able to provide, if needed:
   - [ ] Using idiomatic Python versus clarity of code
   - [ ] Extend this list
 
-
 ## Getting Started
 
-Download these files to corresponding folders under your Python src path.
+To begin using Unculus, simply download or clone this repository and ensure the files are placed within your Python source path. Unculus is designed as a variation on regular expressions, with a focus on building and manipulating finite state automata for pattern recognition and processing.
 
 ## Prerequisites
 
-I'll provide prereqs here.
+- Python 3.7 or higher
+- No external dependencies are required for the core functionality.
+- (Optional) For development and testing, you may want to install tools such as `pytest` for running automated tests and a linter like `flake8` for code style checks.
 
 ## Installing
 
-I will provide installation steps here.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ErikPohl444/unculus.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd unculus
+   ```
+3. (Optional) Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+4. (Optional) Install development dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   (If a `requirements.txt` file is provided for tests or development tools.)
+
+You are now ready to explore and use Unculus!
 
 ## Running the tests
 
